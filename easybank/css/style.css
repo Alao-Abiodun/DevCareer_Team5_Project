@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(0, 0%, 100%);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* GENERAL STYLING */
+.container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn {
+    background: linear-gradient(to right, hsl(136, 93%, 53%), hsl(233, 57%, 55%));
+    padding: 10px;
+    border-radius: 25px;
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav li {
+    padding: 20px;
+}
+
+.main-nav li a {
+    color: hsla(0, 5%, 66%, 0.884);
+}
+
+/* SHOWCASE */
+.showcase {
+    width: 100%;
+    height: 700px;
+    background: hsl(0, 0%, 98%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.showcase-desc {
+    display: flex;
+    flex-direction: column;
+    padding: 110px;
+    margin-top: 50px;
+}
+
+.showcase-desc h2 {
+    font-family:'Public Sans', sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.showcase-desc p {
+    color: hsl(233, 8%, 62%);
+    font-size: 18px;
+}
+
+.btn-showcase {
+    margin-top: 25px;
+}
+
+.img1 {
+    z-index: 1;
+    width: 600px;
+    position: absolute;
+    right: 30px;
+    top: 90px;
+}
+
+.img3 {
+    z-index: 3;
+    width: 500px;
+    position: absolute;
+    right: 30px;
+    top: 70px;
+}
+
+.What-we-do {
+    background: #f3f3f3;
+    height: 500px;
+}
+
+.feature-desc {
+    margin-left: 125px;
+    padding-top: 115px;
+}
+
+.feature-desc h3{
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.features h4 {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.features p {
+    margin-top: 15px;
+}
+
+
+
+
+
