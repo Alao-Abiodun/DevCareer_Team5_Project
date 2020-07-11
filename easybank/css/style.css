@@ -26,7 +26,7 @@ body {
     color: #ffffff;
 }
 
-.btn:hover {
+ .btn:hover {
     opacity: 0.9;
     cursor: pointer;
 }
@@ -105,6 +105,10 @@ a {
 .showcase-desc p {
     color: hsl(233, 8%, 62%);
     font-size: 18px;
+}
+
+.showcase-img {
+    background: url('../img/bg-intro-desktop.svg') no-repeat -60px -200px;
 }
 
 .btn-showcase {
@@ -203,8 +207,3 @@ a {
         text-align: center;
     }
 }
-
-
-
-
-
