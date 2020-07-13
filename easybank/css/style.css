@@ -375,8 +375,6 @@ footer {
     /* .navbar .main-nav{
         display: none;
     } */
-
-    
     .navbar .checkbtn .menu-icon{
         display: block;
         font-size: 22px;
@@ -438,7 +436,7 @@ footer {
 
     .showcase-img .img3{
         width: 300px;
-        margin-right: 15rem;
+        margin-left: 15rem;
     }
 
     .showcase-desc {
@@ -505,7 +503,7 @@ footer {
 
  .row .col-article img{
      width: 100%;
-
+     border-radius: 5px;
  }
  .row .col-article #first-image{
      height: 44%;
