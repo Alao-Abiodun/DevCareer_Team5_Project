@@ -1,0 +1,294 @@
+
+@media (max-width: 320px){
+    .main-back .main-right img{
+        height: 400px;
+        width: 320px;
+    }
+}
+
+@media (max-width: 375px) and (max-width: 560px){
+    .navbar .checkbtn .menu-icon{
+        display: block;
+        font-size: 22px;
+        color: rgb(52, 199, 89);
+        position: absolute;
+        top: 1.2rem;
+        right: 1rem;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .navbar {
+        margin: 20px 15px 20px 15px;
+    }
+
+    .navbar .main-nav {
+        display: block;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 60px;
+        left: 100%;
+        text-align: center;
+        background-color: hsl(256, 26%, 20%);
+        box-shadow: 0 0 4px 0 hsla(0, 5%, 66%, 0.884);
+        transition:  all .5s;
+        z-index: 1000;
+        background-image: url(../Assets/bg-pattern-mobile-nav.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    
+    .navbar .main-nav li {
+        padding: 20px 0;
+    }
+
+    .navbar .main-nav li:first-child{
+        margin-top: 2rem;
+    }
+
+    .navbar .main-nav li:nth-child(3){
+        margin-bottom: 1.5rem;
+    }
+    
+    .navbar .main-nav li a {
+        margin-bottom: 15px;
+        color: hsl(0, 0%, 98%);
+        padding: 20px 0;
+    }
+
+    .main-nav .btn {
+        padding: 16px 100px;
+        width: 150px;
+        font-size: 15px;
+        text-align: center;
+        color: #ffffff;
+        border: 2px solid hsl(0, 0%, 98%);
+    }
+    
+    .btn-insure {
+        color: #000;
+        font-weight: 400;
+    }
+
+    .insure-background{
+        background-color: hsl(0, 0%, 98%) !important;
+    }
+    
+    .insure-background .main-back{
+        padding: 0 0 20px 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-back .main-left{
+        background-color: hsl(256, 26%, 20%);
+        padding-top: 4rem;
+        margin-top: -1rem;
+        text-align: center;
+        padding-bottom: 7rem;
+        background-image: url(/Assets/bg-pattern-intro-left-mobile.svg);
+        background-repeat: no-repeat;
+    }
+
+    .main-left .separator{
+        display: none;
+    }
+    
+    .main-back .main-left h1{
+        font-size: 45px;
+        margin-bottom: 1px;
+    }
+
+    .main-back .main-left p{
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+        padding: 0 .1rem;
+    }
+    
+    .main-back .main-right img{
+        height: 451px;
+        /* width: 250px; */
+    }
+
+    .main-right .right-image{
+        display: none;
+    }
+
+    .main-right .right-image img{
+        height: 300px;
+        width: 100px;
+    }
+    
+    .main-left .left-image{
+        display: none;
+    }
+
+    .main-left .left-image  #left-image{
+        display: block;
+    }
+    
+    .main-right .right-image #right-image{
+        display: inline-block;
+    }
+    
+    .primary .main-primary{
+        padding: 10px 10px 20px 10px;
+        margin-top: 30rem;
+        text-align: center;
+    }
+    
+    .primary .main-primary h2{
+        font-size: 40px;
+        color: hsl(270, 9%, 17%);
+        font-family: 'DM Serif Display', serif;
+        margin-bottom: 2rem;
+    }
+
+    .main-primary .row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .col-row{
+        margin: 1.4rem;
+    }
+}
+
+
+@media  (max-width: 786px){
+    .navbar .checkbtn .menu-icon{
+        display: block;
+        font-size: 22px;
+        color: rgb(52, 199, 89);
+        position: absolute;
+        top: 1.2rem;
+        right: 1rem;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .navbar {
+        margin: 20px 15px 20px 15px;
+    }
+
+    .navbar .main-nav {
+        display: block;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 60px;
+        left: 100%;
+        text-align: center;
+        background-color: hsl(256, 26%, 20%);
+        box-shadow: 0 0 4px 0 hsla(0, 5%, 66%, 0.884);
+        transition:  all .5s;
+        z-index: 1000;
+        background-image: url(../Assets/bg-pattern-mobile-nav.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    
+    .navbar .main-nav li {
+        padding: 20px 0;
+    }
+
+    .navbar .main-nav li:first-child{
+        margin-top: 2rem;
+    }
+
+    .navbar .main-nav li:nth-child(3){
+        margin-bottom: 1.5rem;
+    }
+    
+    .navbar .main-nav li a {
+        margin-bottom: 15px;
+        color: hsl(0, 0%, 98%);
+        padding: 20px 0;
+    }
+
+     .main-nav .btn {
+        padding: 16px 100px;
+        width: 150px;
+        font-size: 15px;
+        text-align: center;
+        color: #ffffff;
+        border: 2px solid hsl(0, 0%, 98%);
+    }
+
+    .main-left .separator{
+        display: none;
+    }
+
+    .insure-background{
+        background-color: hsl(0, 0%, 98%) !important;
+    }
+
+    .insure-background .main-back{
+        padding: 0 0 20px 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-back .main-left{
+        background-color: hsl(256, 26%, 20%);
+        padding-top: 4rem;
+        margin-top: -1rem;
+        text-align: center;
+        padding-bottom: 7rem;
+        background-image: url(/Assets/bg-pattern-intro-left-mobile.svg);
+        background-repeat: no-repeat;
+    }
+    
+   .main-back .main-left h1{
+        font-size: 45px;
+        margin-bottom: 1px;
+    }
+
+    .main-back .main-left p{
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+        padding: 0 .1rem;
+    }
+
+    .main-right .right-image{
+        display: none;
+    }
+
+    .main-right .right-image img{
+        height: 300px;
+        width: 100px;
+    }
+    
+    .primary .main-primary{
+        padding: 10px 10px 20px 10px;
+        margin-top: 30rem;
+        text-align: center;
+    }
+    
+    .primary .main-primary h2{
+        font-size: 40px;
+        color: hsl(270, 9%, 17%);
+        font-family: 'DM Serif Display', serif;
+        margin-bottom: 2rem;
+    }
+
+    .main-primary .row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .col-row{
+        margin: 1.4rem;
+    } 
+}
