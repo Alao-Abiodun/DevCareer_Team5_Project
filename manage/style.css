@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+    font-size: 16px;
+    background: url('./img/bg-tablet-pattern.svg') no-repeat 800px -150px; 
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.showcase-get-started {
+    background: hsl(12, 88%, 59%);
+    padding: 15px;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.btn {
+    background: hsl(12, 88%, 59%);
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* NAVIGATION */
+ .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    height: 65px;
+}
+
+.main-nav ul{
+    display: flex;
+}
+
+.main-nav ul li {
+    padding: 0 20px;
+}
+
+.main-nav ul li a:hover {
+    opacity: 0.5;
+}
+
+.main-nav ul.main-menu {
+    margin-right: 20px;
+}
+
+/* SHOWCASE SECTION */
+.showcase {
+    margin-top: 95px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.showcase .manage-description h3.big-text {
+    font-size: 65px;
+    color: hsl(228, 39%, 23%);
+    margin-bottom: 15px;
+}
+
+.showcase .manage-description p.small-text {
+    font-size: 20px;
+    line-height: 1.5;
+    color: hsl(0, 9%, 82%);
+    margin-bottom: 25px;
+}
+
+/* ABOUT SECTION */
+.about {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-manage {
+    height: 500px;
+    margin-right: 20px;
+    background: url('./img/bg-tablet-pattern.svg') no-repeat -400px 200px; 
+}
+
+.about h4 {
+    color: hsl(228, 39%, 23%);
+    font-size: 45px;
+}
+
+.about .about-manage p {
+    margin-right: 25px;
+    font-size: 25px;
+    margin-top: 10px;
+    color: hsl(0, 9%, 82%);
+}
+
+.about .btn-features {
+    margin-right: 15px;
+    background: hsl(12, 88%, 59%);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.about .about-steps h5 {
+    display: inline-block;
+    margin-top: 10px;
+    color: hsl(228, 39%, 23%);
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.about .about-steps p {
+    margin-left: 49px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: hsl(0, 9%, 82%);
+}
+
+/* CUSTOMER SECTIONS */
+.customer {
+    height: 250px;
+    color: hsl(228, 39%, 23%);
+    text-align: center;
+}
+
+.customer h5 {
+    color: hsl(228, 39%, 23%);
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.customer-feedbacks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer .customer-feedbacks img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.customer-feedbacks p.customer-comment {
+    color: hsl(0, 9%, 82%);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.customer-name, .customer-comment {
+    text-align: center;
+}
+
+/* HOW TO USE */
+.how-to-use {
+    margin-top: 60px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: hsl(12, 88%, 59%);
+}
+
+.how-to-use h3 {
+    margin-left: 35px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.btn-how-to-use {
+    margin-right: 15px;
+    margin-top: 10px;
+    background: #ffffff;
+    color:hsl(12, 88%, 59%);
+    height: 20px;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+/* FOOTER */
+.footer-links {
+    background:  hsl(233, 12%, 13%);
+    height: 250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5;
+}
+
+.footer-links .inner-links {
+    margin-left: 55px;
+}
+
+.inner-links img {
+    color: #ffffff;
+}
+
+.inner-links .social-links {
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.inner-links .social-links li {
+    padding: 5px;
+}
+
+.footer-links a {
+    color: hsl(0, 9%, 82%)
+}
+
+.btn-newsletter {
+    background: hsl(12, 88%, 59%);
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.newsletter .email-input  {
+    border-radius: 20px;
+    border: none;
+    height: 37px;
+    padding: 10px;
+}
+
+.newsletter p.copyright {
+    color: hsl(0, 9%, 82%);
+}
+
